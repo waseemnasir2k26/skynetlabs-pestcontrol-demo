@@ -1,0 +1,279 @@
+{
+  "brand": {
+    "name": "SkynetLabs Pest Control Demo",
+    "tagline": "Botanical-first pest control for Houston homes"
+  },
+  "niche": "pestcontrol",
+  "niche_label": "Pest Control",
+  "location": {
+    "city": "Houston",
+    "region": "TX",
+    "country": "US"
+  },
+  "owner": {
+    "name": "Waseem Nasir",
+    "agency": "SkynetLabs",
+    "fiverr_url": "https://www.fiverr.com/agencies/skynetjoellc",
+    "hub_url": "https://skynetjoe.com",
+    "contact_email": "waseembali2k26@gmail.com",
+    "contact_phone": "+1-713-555-0214"
+  },
+  "palette": {
+    "bg": "#F1EEE6",
+    "surface": "#DDE4D3",
+    "ink": "#1A1F1A",
+    "accent": "#3D5A3A",
+    "detail": "#B89A5C"
+  },
+  "fonts": {
+    "display": "Cormorant Garamond",
+    "body": "Inter",
+    "mono": null
+  },
+  "dark_mode": false,
+  "hero": {
+    "kind": "photo",
+    "h1": "A *quieter* home. Without the spray-truck smell.",
+    "sub": "Botanical-first pest control for Houston's year-round season. Pet- and child-safe. TPCL-licensed.",
+    "photo_url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1920&auto=format&fit=crop&q=80",
+    "photo_credit": "Photo by Joshua Sortino on Unsplash",
+    "overlay": "rgba(8,18,8,0.40)",
+    "focal_point": "center"
+  },
+  "hero_3d": null,
+  "copy": {
+    "primary_cta": "Book a home assessment →",
+    "primary_cta_href": "#contact",
+    "secondary_cta": "Call (713) 555-0214",
+    "secondary_cta_href": "tel:+17135550214",
+    "sticky_mobile_bar": "Free inspection — (713) 555-0214"
+  },
+  "trust_strip": [
+    "Texas TPCL #08847",
+    "EPA-Registered Products Only",
+    "NPMA QualityPro · GreenPro Certified",
+    "Sentricon Authorized Operator",
+    "Pet- and Child-Safe Protocols"
+  ],
+  "service_area": {
+    "primary_city": "Houston, TX",
+    "service_area_cities": [
+      "The Woodlands, TX",
+      "Sugar Land, TX",
+      "Katy, TX",
+      "Pearland, TX",
+      "Cypress, TX",
+      "Spring, TX",
+      "Tomball, TX",
+      "Bellaire, TX",
+      "West University Place, TX",
+      "River Oaks, TX",
+      "Memorial, TX",
+      "Heights, TX",
+      "Galleria, TX",
+      "Energy Corridor, TX",
+      "Clear Lake, TX",
+      "Friendswood, TX",
+      "League City, TX",
+      "Kingwood, TX",
+      "Humble, TX",
+      "Atascocita, TX",
+      "Missouri City, TX",
+      "Stafford, TX",
+      "Richmond, TX",
+      "Rosenberg, TX",
+      "Fulshear, TX",
+      "Brookshire, TX",
+      "Magnolia, TX",
+      "Conroe, TX",
+      "Pasadena, TX",
+      "Deer Park, TX"
+    ]
+  },
+  "services": [
+    {
+      "slug": "termite-bait",
+      "title": "Termite Bait + Soil Defense",
+      "blurb": "Sentricon Always Active in-ground stations on a perimeter spacing engineered for your slab type and soil moisture. Annual monitoring, transferable bond, and a full subterranean termite warranty backed by Dow. We document every station with GPS coordinates so the next inspection has a reference."
+    },
+    {
+      "slug": "mosquito-misting",
+      "title": "Mosquito Misting Systems",
+      "blurb": "MistAway and Pynamite automated yard systems plumbed for your landscaping, programmed to dawn-dusk schedules, refilled quarterly. We install away from edible gardens, water features, and pet zones. The yard becomes useable again — May through October."
+    },
+    {
+      "slug": "roach-protocol",
+      "title": "Roach Gel-Bait Protocol",
+      "blurb": "Targeted gel-bait dosing for German cockroach (the kitchen species) and American cockroach (the slab species) — different protocols, different products. We do not fog. We do not spray baseboards. We place 40 to 60 small gel dots in cabinet voids and switch boxes where the population actually lives."
+    },
+    {
+      "slug": "rodent-exclusion",
+      "title": "Rodent Exclusion + Sealing",
+      "blurb": "Building-envelope inspection and physical exclusion of every entry point under a quarter-inch — gable vents, weep holes, garage corners, utility penetrations. Trapping is the easy part; sealing is the actual fix. Most rodent calls we get are from previous companies that only set traps."
+    },
+    {
+      "slug": "botanical-quarterly",
+      "title": "Quarterly Botanical Barrier",
+      "blurb": "Cedar-oil and rosemary-oil exterior perimeter rotation that targets ants, spiders, scorpions, and earwigs without conventional pyrethroids. Pet- and child-safe immediately after application — no waiting period, no off-gassing window. Quarterly visit, written log, GreenPro-certified product line."
+    },
+    {
+      "slug": "pre-construction",
+      "title": "Pre-Construction Termite Pretreatment",
+      "blurb": "Soil termiticide application during the slab pour — the only window where you can guarantee a fully treated zone under the foundation. We coordinate with your builder, document the application with engineer-signed photos, and file the official Wood-Destroying Insect Report your municipality requires."
+    }
+  ],
+  "process": [
+    {
+      "n": 1,
+      "title": "Home assessment",
+      "blurb": "Interior, exterior, attic, and crawl/slab inspection. We identify species, conducive conditions, and the actual entry points — not just what's visible."
+    },
+    {
+      "n": 2,
+      "title": "Treatment plan",
+      "blurb": "Written, with product names and EPA registration numbers. You see exactly what is being applied and where. Pet and family timing planned around your schedule."
+    },
+    {
+      "n": 3,
+      "title": "Initial knockdown",
+      "blurb": "First service is concentrated. Subsequent quarterly visits maintain the perimeter and address any new pressure."
+    },
+    {
+      "n": 4,
+      "title": "Quarterly monitoring",
+      "blurb": "Same technician each visit when possible. Written log of activity, sealing repairs, and termite station readings emailed after every service."
+    }
+  ],
+  "case_study": {
+    "title": "1972 River Oaks Estate — German Roach Eradication + Annual Botanical",
+    "photo_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920&auto=format&fit=crop&q=80",
+    "quote": "We had been on a national pest-control contract for eleven years and the roaches in the kitchen never went away — they just hid better. The Natran team did a single 90-minute treatment with gel bait and we have not seen a roach in fourteen months.",
+    "stats": [
+      {
+        "value": "0 sightings",
+        "label": "14 months post-treatment"
+      },
+      {
+        "value": "1 visit",
+        "label": "Initial knockdown"
+      },
+      {
+        "value": "Quarterly",
+        "label": "Botanical maintenance"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "We have a baby and two dogs. Every previous service told us to leave the house for four hours after spraying. Natran's botanical perimeter was applied while the kids played outside. Different category of company.",
+      "name": "Sara + Aaron T.",
+      "role": "Young family, The Heights",
+      "city": "Houston, TX"
+    },
+    {
+      "quote": "We were two days from closing on a Sugar Land house when the WDI inspection found active termites under the back porch. Natran got the bond paperwork through escrow in 36 hours and we closed on schedule. Saved the deal.",
+      "name": "Marcus J.",
+      "role": "Homebuyer, Sugar Land",
+      "city": "Sugar Land, TX"
+    },
+    {
+      "quote": "Backyard was unusable from May to October. Mosquito misting system installed in three hours, refill schedule on autopilot, and we hosted the first cookout in years that everyone actually enjoyed. Mid-July. In Houston.",
+      "name": "Linda V.",
+      "role": "Homeowner, The Woodlands",
+      "city": "The Woodlands, TX"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are botanical treatments actually effective on Houston roach loads?",
+      "a": "For German cockroach (kitchen species) the gold standard is gel bait, which is conventional but extremely targeted — not a spray. For American cockroach and exterior pests, cedar-oil and rosemary-oil rotations work as well as pyrethroids in independent field trials. The trick is product placement, not chemistry."
+    },
+    {
+      "q": "How often should Houston homes be treated — quarterly or monthly?",
+      "a": "Quarterly is sufficient for 95% of homes if exclusion and habitat-modification are addressed at the first visit. Monthly is upselling unless you have an active commercial-grade infestation or a property with structural issues we cannot exclude."
+    },
+    {
+      "q": "What's the termite warranty structure (renewable bond)?",
+      "a": "Sentricon Always Active provides a transferable, renewable bond — annual fee maintains coverage and, in the event of new termite activity, treatment is performed at no additional cost. Bond transfers to the next owner if you sell."
+    },
+    {
+      "q": "Pet- and child-safe means safe how soon after spray?",
+      "a": "For our botanical exterior rotation: immediately. The product dries in minutes and has no off-gassing. For interior gel bait: family is welcome in the room within 30 seconds of placement — the bait is in cabinet voids, not on surfaces."
+    },
+    {
+      "q": "Mosquito misting system — install cost and refill cadence?",
+      "a": "Install runs $2,800 to $4,200 depending on yard size and plumbing routing. Quarterly refills are included in the maintenance plan. We do not pressure households with edible gardens or pollinator-dependent landscaping into misting systems."
+    },
+    {
+      "q": "Do you treat for the German cockroach specifically?",
+      "a": "Yes — and it requires its own protocol. German roaches breed on a 21-day cycle in kitchen voids and are essentially never eliminated by spraying. We use targeted gel bait in 40 to 60 small dots inside cabinet voids, switch boxes, and appliance bases. Most homes are roach-free within 14 days."
+    },
+    {
+      "q": "Pre-purchase termite (WDI) inspection turnaround?",
+      "a": "Same-day for most Houston metro homes. Written WDI report (the form your lender requires) emailed within 24 hours. We are HUD-certified to issue the report and have processed thousands through Texas escrow without delay."
+    },
+    {
+      "q": "Do you offer no-contract / month-to-month options?",
+      "a": "Yes. Quarterly service is the recommended cadence but there is no annual contract — cancel anytime, prorated. We earn the next visit, we do not lock you into one."
+    }
+  ],
+  "lead_magnet": {
+    "title": "The Houston Botanical Pest-Control Field Guide",
+    "subtitle": "What works, what's marketing, and how to read a treatment plan. 12 pages.",
+    "cta": "Get the guide →"
+  },
+  "photos": {
+    "hero": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1920&auto=format&fit=crop&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1455587734955-081b22074882?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1280&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=1280&auto=format&fit=crop&q=80"
+    ]
+  },
+  "competitors": [
+    "https://www.all-safe-pest.com/houston-tx-pest-control/",
+    "https://natran.com",
+    "https://mcgrathpestcontrol.com",
+    "https://www.getmypests.com",
+    "https://www.preventivepesthouston.com"
+  ],
+  "anti_patterns": [
+    "Cartoon dead-bug hero illustration",
+    "Yellow-and-black warning-tape branding",
+    "Coupon code $50 OFF FIRST SPRAY banner"
+  ],
+  "modules": {
+    "booking_calendar": true,
+    "service_area_map": true,
+    "photo_gallery": true,
+    "faq": true,
+    "lead_magnet": true
+  },
+  "contact": {
+    "form_endpoint": "https://api.web3forms.com/submit",
+    "calendly_url": "https://calendly.com/skynetlabs-demo/15min"
+  },
+  "seo": {
+    "title": "Pest Control Houston | Botanical-First, Pet-Safe | SkynetLabs",
+    "description": "Botanical-first pest control for Houston homes. TPCL-licensed, GreenPro certified, Sentricon termite specialists. Pet- and child-safe.",
+    "keywords": [
+      "pest control houston",
+      "botanical pest control",
+      "termite houston",
+      "mosquito misting houston",
+      "roach treatment houston"
+    ],
+    "noindex": true
+  },
+  "demo_disclosure": {
+    "enabled": true,
+    "fiverr_cta_url": "https://www.fiverr.com/agencies/skynetjoellc?utm_source=demo&utm_campaign=pestcontrol",
+    "contact_cta_url": "https://skynetjoe.com/contact?utm_source=demo&utm_campaign=pestcontrol",
+    "portfolio_url": "https://skynetjoe.com/portfolio"
+  }
+}
