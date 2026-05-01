@@ -16,6 +16,7 @@ import {
   IBM_Plex_Sans,
   IBM_Plex_Mono,
   JetBrains_Mono,
+  Bricolage_Grotesque,
 } from "next/font/google";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -84,6 +85,12 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
   display: "swap",
 });
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-bricolage",
+  display: "swap",
+});
 
 // ── Font registry ─────────────────────────────────────────────────────────────
 const FONT_REGISTRY: Record<string, { variable: string; cssVar: string }> = {
@@ -114,6 +121,7 @@ const FONT_REGISTRY: Record<string, { variable: string; cssVar: string }> = {
   "IBM Plex Sans": { variable: ibmPlexSans.variable, cssVar: "--font-ibm-plex-sans" },
   "IBM Plex Mono": { variable: ibmPlexMono.variable, cssVar: "--font-ibm-plex-mono" },
   "JetBrains Mono": { variable: jetbrainsMono.variable, cssVar: "--font-jetbrains-mono" },
+  "Bricolage Grotesque": { variable: bricolage.variable, cssVar: "--font-bricolage" },
   "Inter Tight": { variable: inter.variable, cssVar: "--font-inter" },
   Tiempos: { variable: sourceSerif4.variable, cssVar: "--font-source-serif-4" },
   "Tiempos Text": { variable: sourceSerif4.variable, cssVar: "--font-source-serif-4" },
@@ -135,6 +143,7 @@ const ALL_FONT_VARS = [
   ibmPlexSans.variable,
   ibmPlexMono.variable,
   jetbrainsMono.variable,
+  bricolage.variable,
 ].join(" ");
 
 export const metadata: Metadata = buildMetadata({});

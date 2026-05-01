@@ -189,7 +189,10 @@ export const SiteConfigSchema = z.object({
       .object({ label: z.string().min(1).max(40), href: z.string().min(1) })
       .optional(),
     // v2 hero fields (discriminated union stored flat in v2 configs)
-    kind: z.enum(["photo", "cinemagraph", "r3f"]).optional(),
+    kind: z.enum(["photo", "cinemagraph", "r3f", "type-driven"]).optional(),
+    photo_url: z.string().optional(),
+    photo_credit: z.string().optional(),
+    focal_point: z.string().optional(),
     src: z.string().optional(),
     overlay: z.string().optional(),
     focalPoint: z.string().optional(),
@@ -248,8 +251,16 @@ export const SiteConfigSchema = z.object({
     h1: z.string().optional(),
     sub: z.string().optional(),
     primary_cta: z.string().optional(),
+    primary_cta_href: z.string().optional(),
+    secondary_cta: z.string().optional(),
+    secondary_cta_href: z.string().optional(),
     sticky_mobile_bar: z.string().optional(),
   }).optional(),
+  kinetic_pests: z.array(z.string()).optional(),
+  trust_credentials: z.array(z.object({
+    label: z.string(),
+    detail: z.string().optional(),
+  })).optional(),
 });
 
 export type SiteConfig = z.infer<typeof SiteConfigSchema>;

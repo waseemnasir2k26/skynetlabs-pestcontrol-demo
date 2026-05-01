@@ -2,46 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─────────────────────────────────────────────────────────────────────────────
+   Pest Control — bespoke design language
+   "Quietly handled." Forest-green + bone + warning-amber.
+   The page is calm — that's the brand.
+   ───────────────────────────────────────────────────────────────────────────── */
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 220 26% 14%;
+    /* Botanical-calm light surface */
+    --background: 56 23% 95%; /* bone #F5F4EE */
+    --foreground: 138 28% 11%; /* dark forest-ink #13231A */
     --card: 0 0% 100%;
-    --card-foreground: 220 26% 14%;
-    --primary: 217 91% 36%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 26% 14%;
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 9% 46%;
-    --accent: 24 95% 53%;
-    --accent-foreground: 0 0% 100%;
+    --card-foreground: 138 28% 11%;
+    --primary: 137 42% 21%; /* forest green #1F4D2F */
+    --primary-foreground: 56 23% 95%;
+    --secondary: 70 16% 89%; /* soft moss #E8EAE0 */
+    --secondary-foreground: 138 28% 11%;
+    --muted: 70 16% 89%;
+    --muted-foreground: 130 8% 39%; /* sage grey #5C6B5F */
+    --accent: 36 76% 57%; /* warning amber #E8A33D */
+    --accent-foreground: 138 28% 11%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 217 91% 36%;
-    --radius: 0.625rem;
+    --border: 130 12% 80%;
+    --input: 130 12% 80%;
+    --ring: 137 42% 21%;
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: 220 26% 9%;
-    --foreground: 0 0% 95%;
-    --card: 220 26% 12%;
-    --card-foreground: 0 0% 95%;
-    --primary: 217 91% 60%;
-    --primary-foreground: 220 26% 9%;
-    --secondary: 220 26% 16%;
-    --secondary-foreground: 0 0% 95%;
-    --muted: 220 26% 14%;
-    --muted-foreground: 220 9% 65%;
-    --accent: 24 95% 58%;
-    --accent-foreground: 0 0% 100%;
+    --background: 138 28% 8%;
+    --foreground: 56 23% 95%;
+    --card: 138 28% 11%;
+    --card-foreground: 56 23% 95%;
+    --primary: 137 42% 45%;
+    --primary-foreground: 138 28% 8%;
+    --secondary: 138 18% 16%;
+    --secondary-foreground: 56 23% 95%;
+    --muted: 138 18% 14%;
+    --muted-foreground: 130 8% 60%;
+    --accent: 36 76% 57%;
+    --accent-foreground: 138 28% 8%;
     --destructive: 0 84% 65%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 26% 18%;
-    --input: 220 26% 18%;
-    --ring: 217 91% 60%;
+    --border: 138 18% 20%;
+    --input: 138 18% 20%;
+    --ring: 137 42% 45%;
   }
 }
 
@@ -53,17 +60,61 @@
     @apply bg-background font-body text-foreground antialiased;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--bg, #F5F4EE);
+    color: var(--ink, #13231A);
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
+    font-family: var(--font-display, var(--font-heading));
+    letter-spacing: -0.025em;
   }
   ::selection {
-    @apply bg-primary text-primary-foreground;
+    background: #1F4D2F;
+    color: #F5F4EE;
   }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Kinetic-text: cycles through pests below the headline */
+  .kinetic-pest {
+    display: inline-block;
+    animation: pest-cycle 9s ease-in-out infinite;
+  }
+
+  @keyframes pest-cycle {
+    0%, 14% { opacity: 1; transform: translateY(0); }
+    16%, 100% { opacity: 0; transform: translateY(-6px); }
+  }
+
+  /* Severity meter fill */
+  .severity-fill {
+    transition: width 360ms cubic-bezier(0.4, 0, 0.2, 1), background 220ms ease;
+  }
+
+  /* Botanical leaf hairline divider */
+  .leaf-divider {
+    position: relative;
+  }
+  .leaf-divider::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: #1F4D2F;
+    opacity: 0.35;
+    margin-bottom: 1.25rem;
+  }
+
+  /* Calm fade-in (NO parallax, NO scroll-jack — that's the brand) */
+  .calm-reveal {
+    animation: calm-fade 600ms cubic-bezier(0.4, 0, 0.2, 1) both;
+  }
+  @keyframes calm-fade {
+    0% { opacity: 0; transform: translateY(8px); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 }
